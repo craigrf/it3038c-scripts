@@ -26,4 +26,4 @@ $Date = getDate
 
 $Body = "This machine's IP address is $IP. The user is $User. The hostname is $Hostname. PowerShell is on version $Version. Today's date is $Date."
 
-Send-MailMessage -To "craigrf@mail.uc.edu" -From "rcraig1999@gmail.com" -Subject "Riley Craig IT3038C Windows SysInfo" -Body $Body -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
+Send-MailMessage -To "leonardf@ucmail.uc.edu" -From "rcraig1999@gmail.com" -Subject "Riley Craig IT3038C Windows SysInfo" -Body $Body -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
