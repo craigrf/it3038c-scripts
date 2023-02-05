@@ -15,7 +15,7 @@ function getVersion{
 }
 
 function getDate{
-    Get-Date -UFormat "%A, %B %e, %Y"
+    Get-Date -UFormat "%A, %B%e, %Y"
 }
 
 $IP = getIP
